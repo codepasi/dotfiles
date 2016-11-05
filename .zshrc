@@ -105,3 +105,6 @@ source $ZSH/oh-my-zsh.sh
 
 #export NVM_DIR="/home/karthik/.nvm"
 #[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# make vs code appear without gpu support else black screen will come
+alias code='code --disable-gpu'
